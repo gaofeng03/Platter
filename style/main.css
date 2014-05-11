@@ -740,13 +740,14 @@ hr {
 
 }
 
-@media screen and (max-height: 960px) {
+@media screen and (max-device-height: 960px) {
   .game-explanation {
+    position: absolute;
     bottom: 0;
   }
 }
 
-@media screen and (min-height: 1136px) {
+@media screen and (min-device-height: 1136px) {
   .game-explanation {
     margin-top: 20px;
   }
