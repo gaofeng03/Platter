@@ -740,8 +740,8 @@ hr {
 
 }
 /*iphone 4s*/
-/*@media screen and (max-device-height: 960px) {*/
-@media screen and (max-device-height: 480px) {
+@media screen and (max-device-height: 960px) {
+/*@media screen and (max-device-height: 480px) {*/
   html, body {
     font-size: 13px;
   }
@@ -760,8 +760,8 @@ hr {
   }
 }
 
-/*@media screen and (min-device-height: 1136px) {*/
-@media screen and (min-device-height: 568px) {
+@media screen and (min-device-height: 1136px) {
+/*@media screen and (min-device-height: 568px) {*/
   .game-explanation {
     padding-top:20px;
   }
