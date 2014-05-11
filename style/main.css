@@ -18,12 +18,24 @@ body {
 .heading:after {
   content: "";
   display: block;
-  clear: both; }
+  clear: both; 
+}
 
+.heading img{
+  max-height:50px;
+  position: absolute;
+  margin-top:7px;
+  /*margin-left: -55px;*/
+}
+.game-explanation{
+  color: #333;
+  text-shadow:none;
+  margin-bottom: 15px;
+}
 h1.title {
-  font-size: 56px;
+  font-size: 50px;
   font-weight: bold;
-  margin: 0;
+  margin: 0 0 0 50px;
   display: block;
   float: left; }
 
